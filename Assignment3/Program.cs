@@ -1,3 +1,6 @@
-﻿using Task;
+﻿using Assignment3;
+using Task;
 
-Ludo.PrintBoard();
+
+Ludo ludo = new Ludo();
+ludo.Play();
