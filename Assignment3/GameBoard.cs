@@ -81,6 +81,8 @@ namespace Assignment3
        };
            */
         }
+
+        
         public List<(int, int, int)> GetPositions(string key)
         {
             List<(int, int, int)> pos = new List<(int, int, int)>();
