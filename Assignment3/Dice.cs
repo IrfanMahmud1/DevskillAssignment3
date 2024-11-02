@@ -10,7 +10,8 @@ namespace Assignment3
     {
         public static int Roll()
         {
-            return 0;
+            Random random = new Random();
+            return random.Next(1, 7);
         }
     }
 }
